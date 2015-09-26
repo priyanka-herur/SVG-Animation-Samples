@@ -1,0 +1,564 @@
+<!--Inspired by Dribble shot by Hanna Jung
+https://dribbble.com/Jung_Hanna
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta description="Truck,SVG, Loading, Dribble">
+    <meta author="Priyanka">
+
+    <style>
+        .whole_truck {
+            -webkit-animation-name: moveIt;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: 50%;
+            animation-name: moveIt;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: normal;
+            transform-origin: 50%;
+        }
+        
+        @-webkit-keyframes moveIt {
+            0% {
+                -webkit-transform: translate(-50%, 0px);
+            }
+            10% {
+                -webkit-transform: translate(0%, 0px);
+            }
+            20% {
+                -webkit-transform: translate(20%, 0px);
+            }
+            30% {
+                -webkit-transform: translate(40%, 0px);
+            }
+            40% {
+                -webkit-transform: translate(60%, 0px);
+            }
+            50% {
+                -webkit-transform: translate(80%, 0px);
+            }
+            80% {
+                -webkit-transform: translate(120%, 0px);
+            }
+            100% {
+                -webkit-transform: translate(350%, 0px);
+            }
+        }
+        
+        @keyframes moveIt {
+            0% {
+                transform: translate(-50%, 0px);
+            }
+            10% {
+                transform: translate(0%, 0px);
+            }
+            20% {
+                transform: translate(20%, 0px);
+            }
+            30% {
+                transform: translate(40%, 0px);
+            }
+            40% {
+                transform: translate(60%, 0px);
+            }
+            50% {
+                transform: translate(80%, 0px);
+            }
+            80% {
+                transform: translate(120%, 0px);
+            }
+            100% {
+                transform: translate(350%, 0px);
+            }
+        }
+        
+        .whole_truck .truck {
+            -webkit-animation-name: rotateTruck;
+            -webkit-animation-duration: 0.1s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+            -webkit-animation-direction: alternate;
+            -webkit-transform-origin: 10%;
+            animation-name: rotateTruck;
+            animation-duration: 0.1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+            transform-origin: 10%;
+        }
+        
+        @-webkit-keyframes rotateTruck {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(-1deg);
+            }
+        }
+        
+        @keyframes rotateTruck {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(-1deg);
+            }
+        }
+        
+        .rays {
+            -webkit-animation-name: rotateRays;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: center;
+            animation-name: rotateRays;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            transform-origin: center;
+        }
+        
+        @-webkit-keyframes rotateRays {
+            0% {
+                -webkit-transform: rotate(-180deg);
+            }
+            100% {
+                -webkit-transform: rotate(180deg);
+            }
+        }
+        
+        @keyframes rotateRays {
+            0% {
+                transform: rotate(-180deg);
+            }
+            100% {
+                transform: rotate(180deg);
+            }
+        }
+        
+        .cloud1 {
+            -webkit-animation-name: translateCloud;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in-out;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: 10%;
+            animation-name: translateCloud;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: normal;
+            transform-origin: 10%;
+        }
+        
+        @-webkit-keyframes translateCloud {
+            0% {
+                -webkit-transform: translate(10%, 0);
+            }
+            100% {
+                -webkit-transform: translate(-100%, 0);
+            }
+        }
+        
+        @keyframes translateCloud {
+            0% {
+                transform: translate(10%, 0);
+            }
+            100% {
+                transform: translate(-100%, 0);
+            }
+        }
+        
+        .building {
+            -webkit-animation-name: translateBuilding;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: 0%;
+            animation-name: translateBuilding;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: normal;
+            transform-origin: 0%;
+        }
+        
+        @-webkit-keyframes translateBuilding {
+            0% {
+                -webkit-transform: translate(0%, 0);
+            }
+            100% {
+                -webkit-transform: translate(-10%, 0);
+            }
+        }
+        
+        @keyframes translateBuilding {
+            0% {
+                transform: translate(0%, 0);
+            }
+            100% {
+                transform: translate(-10%, 0);
+            }
+        }
+        
+        .direction2 {
+            -webkit-animation-name: rotateDir;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: 30% 50%;
+            animation-name: rotateDir;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            transform-origin: 30% 50%;
+        }
+        
+        @-webkit-keyframes rotateDir {
+            0% {
+                -webkit-transform: rotate(-20deg)
+            }
+            20% {
+                -webkit-transform: rotate(20deg)
+            }
+            40% {
+                -webkit-transform: rotate(-20deg)
+            }
+            60% {
+                -webkit-transform: rotate(20deg)
+            }
+            75% {
+                -webkit-transform: rotate(0deg)
+            }
+            100% {
+                -webkit-transform: rotate(0deg)
+            }
+        }
+        
+        @keyframes rotateDir {
+            0% {
+                transform: rotate(-20deg)
+            }
+            20% {
+                transform: rotate(20deg)
+            }
+            40% {
+                transform: rotate(-20deg)
+            }
+            60% {
+                transform: rotate(20deg)
+            }
+            75% {
+                transform: rotate(0deg)
+            }
+            100% {
+                transform: rotate(0deg)
+            }
+        }
+        
+        .smoke1 circle:nth-child(1) {
+            -webkit-animation-name: car_smoke1;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: center;
+            animation-name: car_smoke1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            transform-origin: center;
+        }
+        
+        @-webkit-keyframes car_smoke1 {
+            0% {
+                -webkit-transform: translate(0px, 0px) scale(1);
+                opacity: 1;
+            }
+            40% {
+                -webkit-transform: translate(-25px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            50% {
+                opacity: 0;
+            }
+            51% {
+                -webkit-transform: translate(25px, 0px) scale(1);
+            }
+            52% {
+                opacity: 1;
+            }
+            80% {
+                -webkit-transform: translate(-30px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        @keyframes car_smoke1 {
+            0% {
+                transform: translate(0px, 0px) scale(1);
+                opacity: 1;
+            }
+            40% {
+                transform: translate(-25px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            50% {
+                opacity: 0;
+            }
+            51% {
+                transform: translate(25px, 0px) scale(1);
+            }
+            52% {
+                opacity: 1;
+            }
+            80% {
+                transform: translate(-30px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        .smoke1 circle:nth-child(2) {
+            -webkit-animation-name: car_smoke2;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: center;
+            animation-name: car_smoke2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            transform-origin: center;
+        }
+        
+        @-webkit-keyframes car_smoke2 {
+            0% {
+                -webkit-transform: translate(0px, 0px) scale(1);
+                opacity: 1;
+            }
+            20% {
+                -webkit-transform: translate(-25px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            30% {
+                opacity: 0;
+            }
+            31% {
+                -webkit-transform: translate(25px, 0px) scale(1);
+            }
+            32% {
+                opacity: 1;
+            }
+            80% {
+                -webkit-transform: translate(-40px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        @keyframes car_smoke2 {
+            0% {
+                transform: translate(0px, 0px) scale(1);
+                opacity: 1;
+            }
+            20% {
+                transform: translate(-25px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            30% {
+                opacity: 0;
+            }
+            31% {
+                transform: translate(25px, 0px) scale(1);
+            }
+            32% {
+                opacity: 1;
+            }
+            80% {
+                transform: translate(-40px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        .smoke1 circle:nth-child(3) {
+            -webkit-animation-name: car_smoke3;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: ease-in;
+            -webkit-animation-direction: normal;
+            -webkit-transform-origin: center;
+            animation-name: car_smoke3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            transform-origin: center;
+        }
+        
+        @-webkit-keyframes car_smoke3 {
+            0% {
+                -webkit-transform: translate(0px, 0px) scale(1);
+                opacity: 1;
+            }
+            20% {
+                -webkit-transform: translate(-25px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            30% {
+                opacity: 0;
+            }
+            31% {
+                -webkit-transform: translate(25px, 0px) scale(1);
+            }
+            32% {
+                opacity: 1;
+            }
+            80% {
+                -webkit-transform: translate(-45px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        @keyframes car_smoke3 {
+            0% {
+                transform: translate(0px, 0px) scale(1);
+                opacity: 1;
+            }
+            20% {
+                transform: translate(-25px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            30% {
+                opacity: 0;
+            }
+            31% {
+                transform: translate(25px, 0px) scale(1);
+            }
+            32% {
+                opacity: 1;
+            }
+            80% {
+                transform: translate(-45px, 0px) scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        /*Smaller SVG*/
+        
+        svg {
+            min-width: 320px;
+            width: 30%;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        footer {
+            display: block;
+            width: 30%;
+            margin: 0 auto;
+        }
+        
+        footer span {
+            color: #FB3968;
+            font-family: sans-serif;
+            font-size: 10px;
+            float: right;
+        }
+
+    </style>
+    <title>Truck-</title>
+</head>
+
+<body>
+    <svg class="pulldown" viewBox="0 0 387 147" style="background-color:#ffa5aa" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px">
+        <g class="building">
+            <path d="M 497.5391 103.3418 L 497.5557 85.4971 L 495.2305 85.4565 L 495.2305 83.7856 L 488.9932 83.7583 L 488.9277 85.3735 L 486.5723 85.3257 L 486.5723 103.3418 L 479.9346 103.5742 L 473.874 87.3062 L 473.874 76.8047 L 469.2559 76.8047 L 465.5049 65.0269 L 462.4893 77.0376 L 457.7129 77.0376 L 457.7129 93.5386 L 450.209 93.5298 L 450.209 88.8213 L 439.5313 80.6079 L 427.6982 87.8213 L 427.6982 93.1729 L 425.1006 93.1729 L 425.1006 96.896 L 412.4023 104.8071 L 412.4023 81.6665 L 387.8721 81.6665 L 387.8721 103.8765 L 377.5625 94.8765 L 377.5625 92.3169 L 372.9443 92.084 L 372.9443 78.8213 L 368.9043 78.8213 L 368.9043 92.5493 L 360.2461 92.3169 L 360.2461 96.0396 L 353.8975 96.0396 L 353.8975 101.8569 L 340.333 106.2778 L 340.333 102.0894 L 327.6348 102.0894 L 327.6348 92.7822 L 315.8047 88.4253 L 315.8018 56.7163 L 312.916 56.7163 L 312.916 52.2954 L 310.4189 52.3071 L 310.4189 33.8091 L 308.1826 33.8091 L 308.1826 52.3179 L 305.7529 52.3291 L 305.7012 56.7163 L 303.1035 56.6797 L 303.0605 88.4668 L 296.4766 88.4253 L 288.9629 93.2476 L 288.9629 78.8213 L 283.4941 78.8213 L 283.4941 67.1333 L 271.7969 67.1333 L 271.7969 78.8213 L 265.875 78.8213 L 265.875 50.2012 L 262.4121 50.2012 L 262.4121 43.686 L 256.9287 43.686 L 256.9287 38.1016 L 249.7139 38.1016 L 249.7139 42.9878 L 244.5186 43.2207 L 244.5186 49.5029 L 240.7666 49.5029 L 240.7666 91.8516 L 237.5928 94.6436 L 230.9551 94.6436 L 230.8252 88.4668 L 228.3574 84.8711 L 228.3574 78.8213 C 227.2031 69.2813 219.5762 68.5366 219.5762 68.5366 L 217.9033 56.8325 L 215.6592 68.583 C 207.29 69.5137 206.4238 78.8213 206.4238 78.8213 L 206.4238 85.0342 L 203.8262 88.3613 L 203.8262 93.2476 L 201.8066 94.8765 L 197.4775 94.8765 L 197.4775 61.3413 L 192.6338 61.1904 L 192.5713 54.3892 L 187.9536 54.3892 L 187.9536 45.082 L 177.8838 45.0625 L 177.8525 54.3892 L 173.2178 54.4365 L 173.2354 61.3008 L 169.772 61.3008 L 169.772 97.2031 L 167.1748 97.2031 L 167.1748 72.3062 C 167.1748 72.3062 165.6567 63.8833 154.2173 63.9292 C 144.1138 63.9697 141.9663 73.2368 141.9663 73.2368 L 141.9663 95.3418 L 136.8721 95.3418 L 136.8887 64.4971 L 134.5635 64.4565 L 134.5635 55.7856 L 128.3271 55.7583 L 128.2612 64.3735 L 125.9053 64.3257 L 125.9053 95.3418 L 119.2676 95.5742 L 113.207 72.3062 L 113.207 48.8047 L 108.5898 48.8047 L 104.8379 29.0269 L 101.8223 49.0376 L 97.0459 49.0376 L 97.0459 72.5386 L 89.542 96.5298 L 89.542 78.8213 L 78.8643 71.6079 L 67.0317 78.8213 L 67.0317 84.1729 L 64.4341 84.1729 L 64.4341 87.896 L 51.7358 95.8071 L 51.7358 50.6665 L 27.2051 50.6665 L 27.2051 103.2529 L 13.0933 94.1782 L -0.5 103.2529 L -0.5 118.6104 L 360.167 118.6104 L 395.7432 118.6104 L 502.6328 118.6104 L 502.6328 103.3418 L 497.5391 103.3418 Z" fill="#f38897" />
+        </g>
+        <g class="direction1">
+            <path d="M 315.2842 121.4756 L 308.6602 121.4756 L 308.6602 67.749 L 315.2842 67.749 L 315.2842 121.4756 Z" stroke="#1c201d" stroke-width="4" fill="#fbfbfb" />
+            <path d="M 324.7363 122.2441 C 324.7363 118.3594 319.0215 115.2104 311.9727 115.2104 C 304.9229 115.2104 299.209 118.3594 299.209 122.2441 L 324.7363 122.2441 Z" stroke="#1c201d" stroke-width="4" fill="#fb8282" />
+            <g>
+                <path d="M 318.7295 96.9438 L 318.7295 84.4824 L 296.4893 84.4824 C 296.0469 84.4824 295.6309 84.6934 295.3691 85.0503 L 291.8145 89.9043 C 291.46 90.3872 291.4561 91.0425 291.8027 91.5298 L 295.2432 96.3604 C 295.5039 96.7266 295.9248 96.9438 296.374 96.9438 L 318.7295 96.9438 Z" stroke="#1c201d" stroke-width="4" fill="#fb3968" />
+            </g>
+        </g>
+        <g class="direction2">
+            <path d="M 303.2334 75.0029 L 303.2334 86.5889 L 329.9658 86.5889 C 330.3564 86.5889 330.7295 86.4277 330.9971 86.1426 L 335.1201 81.751 C 335.626 81.2119 335.6318 80.3745 335.1338 79.8286 L 331.1494 75.4639 C 330.8818 75.1704 330.502 75.0029 330.1045 75.0029 L 303.2334 75.0029 Z" stroke="#1c201d" stroke-width="4" fill="#fb8282" />
+        </g>
+        <path d="M 314.2715 80.7959 C 314.2715 82.0659 313.2422 83.0952 311.9727 83.0952 C 310.7031 83.0952 309.6738 82.0659 309.6738 80.7959 C 309.6738 79.5264 310.7031 78.4971 311.9727 78.4971 C 313.2422 78.4971 314.2715 79.5264 314.2715 80.7959 Z" fill="#f6f6f8" />
+        <g class="cloud1">
+            <path d="M 181.5 23.4956 L 140.25 23.4956 C 138.0498 23.4956 136.25 21.6953 136.25 19.4956 L 136.25 19.4956 C 136.25 17.2954 138.0498 15.4956 140.25 15.4956 L 181.5 15.4956 C 183.7002 15.4956 185.5 17.2954 185.5 19.4956 L 185.5 19.4956 C 185.5 21.6953 183.7002 23.4956 181.5 23.4956 Z" fill="#f6f6f8" />
+        </g>
+        <g class="whole_truck">
+            <g class="smoke1">
+                <circle r="2" cx="50" cy="109" fill="#fff"></circle>
+                <circle r="3" cx="50" cy="109" fill="#fff"></circle>
+                <circle r="4" cx="50" cy="109" fill="#fff"></circle>
+            </g>
+            <g class="truck">
+                <path d="M 114.0996 80.8208 L 114.0996 119.0566 L 145.6963 119.0566 C 148.105 119.0566 150.0581 117.1035 150.0581 114.6948 L 150.0581 104.4336 L 139.0308 98.0811 L 131.3599 80.8208 L 114.0996 80.8208 Z" stroke="#1c201d" stroke-width="4" fill="#fb8282" />
+                <path d="M 137.3257 120.0776 C 137.3257 124.0957 134.0679 127.353 130.0498 127.353 C 126.0317 127.353 122.7744 124.0957 122.7744 120.0776 C 122.7744 116.0596 126.0317 112.8022 130.0498 112.8022 C 134.0679 112.8022 137.3257 116.0596 137.3257 120.0776 Z" stroke="#1c201d" stroke-width="4" fill="#fbfbfb" />
+                <path d="M 57.3682 103.6494 L 57.3682 113.625 L 48.1089 113.625 C 47.2539 113.625 46.5605 112.9316 46.5605 112.0767 L 46.5605 105.1973 C 46.5605 104.3423 47.2539 103.6494 48.1089 103.6494 L 57.3682 103.6494 Z" stroke="#1c201d" stroke-width="4" fill="#fbfbfb" />
+                <path d="M 54.4365 70.2861 L 136.4326 70.2861 C 136.7368 70.2861 137.0356 70.3706 137.2949 70.5303 L 147.5049 76.8135 C 147.9912 77.1128 148.2876 77.6431 148.2876 78.2144 L 148.2876 82.0747 C 148.2876 82.9834 147.5513 83.7202 146.6426 83.7202 L 116.1958 83.7202 C 115.2896 83.7202 114.5542 84.4521 114.5503 85.3584 L 114.6665 117.4927 C 114.6626 118.3984 113.6787 119.0566 112.7729 119.0566 L 54.4365 119.0566 C 53.5278 119.0566 52.7915 118.3198 52.7915 117.4116 L 52.7915 71.9316 C 52.7915 71.0229 53.5278 70.2861 54.4365 70.2861 Z" stroke="#1c201d" stroke-width="4" fill="#fb3968" />
+                <path opacity="0.4275" d="M 79.4297 92.3628 L 64.0186 92.3628 L 64.0186 82.478 L 79.4297 82.478 L 79.4297 92.3628 Z" fill="#010101" />
+                <path d="M 103.1309 119.0566 L 90.8618 119.0566 C 90.1758 119.0566 89.6201 118.5005 89.6201 117.8149 L 89.6201 86.0288 C 89.6201 85.3428 90.1758 84.7866 90.8618 84.7866 L 103.1309 84.7866 C 103.8169 84.7866 104.3726 85.3428 104.3726 86.0288 L 104.3726 117.8149 C 104.3726 118.5005 103.8169 119.0566 103.1309 119.0566 Z" stroke="#1c201d" stroke-width="4" fill="#fbfbfb" />
+                <path opacity="0.4275" d="M 79.4297 104.8809 L 64.0186 104.8809 L 64.0186 94.9966 L 79.4297 94.9966 L 79.4297 104.8809 Z" fill="#010101" />
+                <path d="M 122.7744 84.2275 L 122.7744 100.498 L 143.0083 100.498 L 133.7256 84.2275 L 122.7744 84.2275 Z" stroke="#1c201d" stroke-width="4" fill="#fbfbfb" />
+            </g>
+
+            <path d="M 79.4297 120.0776 C 79.4297 124.0957 76.1724 127.353 72.1543 127.353 C 68.1362 127.353 64.8789 124.0957 64.8789 120.0776 C 64.8789 116.0596 68.1362 112.8022 72.1543 112.8022 C 76.1724 112.8022 79.4297 116.0596 79.4297 120.0776 Z" stroke="#1c201d" stroke-width="4" fill="#fbfbfb" />
+            <path class="shadow" opacity="0.4" d="M 147.6309 132.2998 L 53.4482 132.2998 C 52.1177 132.2998 51.0396 131.2217 51.0396 129.8911 L 51.0396 129.8911 C 51.0396 128.561 52.1177 127.4829 53.4482 127.4829 L 147.6309 127.4829 C 148.9609 127.4829 150.0396 128.561 150.0396 129.8911 L 150.0396 129.8911 C 150.0396 131.2217 148.9609 132.2998 147.6309 132.2998 Z" fill="#010101" />
+
+        </g>
+
+        <g class="cloud2">
+            <path d="M 151.0947 36.4956 L 124.4541 36.4956 C 122.2539 36.4956 120.4541 34.6953 120.4541 32.4956 L 120.4541 32.4956 C 120.4541 30.2954 122.2539 28.4956 124.4541 28.4956 L 151.0947 28.4956 C 153.2949 28.4956 155.0947 30.2954 155.0947 32.4956 L 155.0947 32.4956 C 155.0947 34.6953 153.2949 36.4956 151.0947 36.4956 Z" fill="#f6f6f8" />
+        </g>
+        <g class="rays">
+            <rect x="356" y="10" width="4" height="8" fill="#f6f6f8" rx="2" ry="2" />
+            <rect x="356" y="46" width="4" height="8" fill="#f6f6f8" rx="2" ry="2" />
+            <path d="M 342.4437 16.4437 L 342.4437 16.4437 C 343.2247 15.6626 344.491 15.6626 345.2721 16.4437 L 348.1005 19.2721 C 348.8816 20.0531 348.8816 21.3194 348.1005 22.1005 L 348.1005 22.1005 C 347.3195 22.8816 346.0531 22.8816 345.2721 22.1005 L 342.4437 19.2721 C 341.6626 18.491 341.6626 17.2247 342.4437 16.4437 Z" fill="#f6f6f8" />
+            <path d="M 367.8995 41.8995 L 367.8995 41.8995 C 368.6805 41.1184 369.9469 41.1184 370.7279 41.8995 L 373.5563 44.7279 C 374.3374 45.509 374.3374 46.7753 373.5563 47.5564 L 373.5563 47.5564 C 372.7753 48.3374 371.509 48.3374 370.7279 47.5564 L 367.8995 44.7279 C 367.1184 43.9469 367.1184 42.6806 367.8995 41.8995 Z" fill="#f6f6f8" />
+            <rect x="336" y="30" width="8" height="4" fill="#f6f6f8" rx="2" ry="2" />
+            <rect x="372" y="30" width="8" height="4" fill="#f6f6f8" rx="2" ry="2" />
+            <path d="M 342.4437 47.5564 L 342.4437 47.5564 C 341.6626 46.7753 341.6626 45.509 342.4437 44.7279 L 345.2721 41.8995 C 346.0531 41.1184 347.3195 41.1184 348.1005 41.8995 L 348.1005 41.8995 C 348.8816 42.6806 348.8816 43.9469 348.1005 44.7279 L 345.2721 47.5564 C 344.491 48.3374 343.2247 48.3374 342.4437 47.5564 Z" fill="#f6f6f8" />
+            <path d="M 367.8995 22.1005 L 367.8995 22.1005 C 367.1184 21.3194 367.1184 20.0531 367.8995 19.2721 L 370.7279 16.4437 C 371.509 15.6626 372.7753 15.6626 373.5563 16.4437 L 373.5563 16.4437 C 374.3374 17.2247 374.3374 18.491 373.5563 19.2721 L 370.7279 22.1005 C 369.9469 22.8816 368.6805 22.8816 367.8995 22.1005 Z" fill="#f6f6f8" />
+        </g>
+        <g class="sun">
+            <path d="M 368.7549 32.4956 C 368.7549 38.3867 363.9795 43.1621 358.0879 43.1621 C 352.1973 43.1621 347.4219 38.3867 347.4219 32.4956 C 347.4219 26.6045 352.1973 21.8286 358.0879 21.8286 C 363.9795 21.8286 368.7549 26.6045 368.7549 32.4956 Z" fill="#fb3968" />
+        </g>
+    </svg>
+    <footer><span>Inspired and based on Dribble shot by <a href="https://dribbble.com/Jung_Hanna">Hanna Jung</a></span></footer>
+</body>
+
+</html>
