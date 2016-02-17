@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SVG Animations</title>
+    <description>Exploring the capabilities of SVG/CSS animations. 
+</description>
+    <link>http://priyankaherur.com/</link>
+    <atom:link href="http://priyankaherur.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Feb 2016 19:36:55 +0530</pubDate>
+    <lastBuildDate>Wed, 17 Feb 2016 19:36:55 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Hello Line Drawing</title>
+        <description>&lt;p&gt;Using line animation supported by SVG, animate drawing of the word hello.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/line%20drawing-hello/index.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 16 Feb 2016 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2016/02/16/svg-hello.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2016/02/16/svg-hello.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Truck Loading</title>
+        <description>&lt;p&gt;An amazing animation from Hanna Jung who provided the source files. Convert the asset to SVG and a step by step process to animate it.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/truck-loading/truck.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Feb 2016 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2016/02/14/svg-truck-loading.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2016/02/14/svg-truck-loading.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Star Wars BB8</title>
+        <description>&lt;p&gt;Freebie provided by Michelle Svoboda is animated using SVG.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/StarWars%20BB8/bb8.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 13 Feb 2016 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2016/02/13/svg-starwars-bb8.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2016/02/13/svg-starwars-bb8.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sea Bed Crawl</title>
+        <description>&lt;p&gt;Animating the crab movement along multiple paths on every click.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/seabed/sea_bed.svg&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 12 Feb 2016 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2016/02/12/svg-seabed.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2016/02/12/svg-seabed.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wavy Menu</title>
+        <description>&lt;p&gt;You can build a wave like animations using SVG for handling any user interaction. This example uses only SVG without any library.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-htmlentities&quot; data-lang=&quot;htmlentities&quot;&gt; &amp;lt;animate  dur=&quot;1s&quot; id=&quot;animatemypath&quot;
+            repeatCount=&quot;1&quot; 
+            attributeName=&quot;d&quot; 
+            keyTimes=&quot;0;.5;1&quot;
+            keySplines=&quot;.42,0,.6,1; 0,0,0.3,0.6;&quot;
+            calcMode=&quot;spline&quot; 
+            begin=&quot;click&quot;
+            values=&quot; ... &quot;
+           /&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/wave_menu/new_wave.svg&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 21 Jul 2015 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2015/07/21/svg-wave-menu.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2015/07/21/svg-wave-menu.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Earth-Asteroid Trajectory</title>
+        <description>&lt;p&gt;Trajectory of 2004 BL86 asteroid and earth is animated using SVG animations. This animation shows the passage of the asteroid on January 26, 2015 very close to the earth’s orbit.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 04 Mar 2015 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2015/03/04/earth-asteroid.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2015/03/04/earth-asteroid.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Gears SVG Animation</title>
+        <description>&lt;p&gt;Movement of gears is animated using SVG assets and CSS animation.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/gears/gears.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 24 Aug 2014 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2014/08/24/svg-gears.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2014/08/24/svg-gears.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SVG Bike</title>
+        <description>&lt;p&gt;Animating the motion of a bike using CSS animations on SVG assets.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/bike/bike.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 23 Aug 2014 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2014/08/23/svg-bike.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2014/08/23/svg-bike.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SVG Car</title>
+        <description>&lt;p&gt;Animating movement of the car using CSS animations on SVG assets.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/car/car.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 04 Mar 2014 15:04:20 +0530</pubDate>
+        <link>http://priyankaherur.com/2014/03/04/svg-car.html</link>
+        <guid isPermaLink="true">http://priyankaherur.com/2014/03/04/svg-car.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

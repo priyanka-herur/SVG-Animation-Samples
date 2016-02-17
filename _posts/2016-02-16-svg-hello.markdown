@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Hello Line Drawing"
+date:  2016-02-16 9:34:20
+categories: 
+author: Priyanka Herur
+image: 
+    feature: img/hello.svg
+    
+---
+
+Using line animation supported by SVG, animate drawing of the word hello.
+
+Check out [SVG animation][animation] for complete code. File all bugs/feature requests at [my GitHub repo][priyanka-gh]. If you have questions, you can leave a comment here.
+
+[animation]:   http://priyanka-herur.github.io/SVG-Animation-Samples/line%20drawing-hello/index.html
+[priyanka-gh]:  https://github.com/priyanka-herur/
+

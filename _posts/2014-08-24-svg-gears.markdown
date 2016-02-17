@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Gears SVG Animation"
+date:  2014-08-24 9:34:20
+categories: 
+author: Priyanka Herur
+image: 
+    feature: img/gears.svg
+---
+Movement of gears is animated using SVG assets and CSS animation.
+
+Check out [SVG animation][animation] for complete code. File all bugs/feature requests at [my GitHub repo][priyanka-gh]. If you have questions, you can leave a comment here.
+
+[animation]:   http://priyanka-herur.github.io/SVG-Animation-Samples/gears/gears.html
+[priyanka-gh]:  https://github.com/priyanka-herur/

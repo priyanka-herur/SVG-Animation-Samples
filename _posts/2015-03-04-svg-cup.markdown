@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "SVG Cup"
+date:  2016-03-04 9:34:20
+categories: 
+author: Priyanka Herur
+image: 
+    feature: img/svg-cup.svg
+    credit: Jonathan Pimento
+    creditlink: jonathanpimento.com
+---
+Animating motion of a bike using CSS animations on SVG elements.
+
+Check out [SVG animation][animation] for complete code. File all bugs/feature requests at [my GitHub repo][priyanka-gh]. If you have questions, you can leave a comment here.
+
+[animation]:   http://priyanka-herur.github.io/SVG-Animation-Samples/cup/cup.html
+[priyanka-gh]:  https://github.com/priyanka-herur/
