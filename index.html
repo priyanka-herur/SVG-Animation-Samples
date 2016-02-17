@@ -75,7 +75,7 @@ layout: default
         <p>{{ post.excerpt }}</p>
       </div>
       <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
           Read More
         </a>
       </div>
