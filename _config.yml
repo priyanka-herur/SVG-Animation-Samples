@@ -1,0 +1,32 @@
+# Site settings
+title: SVG Animations
+email: priyanka.herur@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Exploring the capabilities of SVG/CSS animations. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://priyankaherur.com" # the base hostname & protocol for your site
+twitter_username: priyankaherur
+github_username:  priyanka-herur
+google_plus_per: '108921660472455376353'  #Personal link
+facebook_app_id: 12345
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+pagination_type: default  # values [ ops, default ]
+
+more_vert:
+  option1:
+    name: Priyanka Option 1
+    link: www.myawesomelink.com
+  option2:
+    name: Cool Option 2
+    link: www.myawesomelink.com
+  option3:
+    name: Cool Option 3
+    link: www.myawesomelink.com
+
+disqus: false
+
+# Build settings
+markdown: kramdown
