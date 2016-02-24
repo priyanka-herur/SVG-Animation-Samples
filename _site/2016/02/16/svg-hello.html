@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hello Line Drawing</title>
-  <meta name="description" content="Using line animation supported by SVG, animate drawing of the word hello.">
+  <title>Doing SVG line animations the right way in 5 steps</title>
+  <meta name="description" content="SVG supports animation of paths. Using SVG path capabilities, we can make web richer by doing simple animations such as an animated “Hello” as shown in this ...">
 
-  <link rel="canonical" href="http://priyankaherur.com/2016/02/16/svg-hello.html">
-  <link rel="alternate" type="application/rss+xml" title="SVG Animations" href="http://priyankaherur.com/feed.xml" />
+  <link rel="canonical" href="http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/16/svg-hello.html">
+  <link rel="alternate" type="application/rss+xml" title="SVG Animations" href="http://priyanka-herur.github.io/SVG-Animation-Samples/feed.xml" />
 
   <!-- Material Design Lite css Library -->
   <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
@@ -19,7 +19,7 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <!-- Custom theme css -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/SVG-Animation-Samples/css/main.css">
 </head>
 
 
@@ -76,7 +76,7 @@
     <nav class="mdl-navigation">
     
       
-      <a class="mdl-navigation__link" href="/about/">About</a>
+      <a class="mdl-navigation__link" href="/SVG-Animation-Samples/about/">About</a>
       
     
       
@@ -102,11 +102,22 @@
       <div class="mdl-color-text--grey-500">
       Feb 16, 2016 • Priyanka Herur •  
       </div>
-      <h3>Hello Line Drawing</h3>
+      <h3>Doing SVG line animations the right way in 5 steps</h3>
       <article class="post-content">
-        <p><p>Using line animation supported by SVG, animate drawing of the word hello.</p>
+        <p><p>SVG supports animation of paths. Using SVG path capabilities, we can make web richer by doing simple animations such as an animated “Hello” as shown in this example. This article will walk you through the creation and animation of the text “Hello” which can be further used to create your own animation such as this.</p>
 
-<p>Check out <a href="http://priyanka-herur.github.io/SVG-Animation-Samples/line%20drawing-hello/index.html">SVG animation</a> for complete code. File all bugs/feature requests at <a href="https://github.com/priyanka-herur/">my GitHub repo</a>. If you have questions, you can leave a comment here.</p>
+<p><img src="/SVG-Animation-Samples ../../../img/posts/hello/hello.gif" alt="My helpful screenshot" />
+Check out <a href="http://priyanka-herur.github.io/SVG-Animation-Samples/line%20drawing-hello/index.html">SVG animation</a> for complete code. File all bugs/feature requests at <a href="https://github.com/priyanka-herur/">my GitHub repo</a>. If you have questions, you can leave a comment here.</p>
+
+<figure class="highlight"><pre><code class="language-htmlentities" data-lang="htmlentities"> &lt;animate  dur="1s" id="animatemypath"
+            repeatCount="1" 
+            attributeName="d" 
+            keyTimes="0;.5;1"
+            keySplines=".42,0,.6,1; 0,0,0.3,0.6;"
+            calcMode="spline" 
+            begin="click"
+            values=" ... "
+           /&gt;</code></pre></figure>
 
 </p>
       </article>
@@ -123,7 +134,7 @@
       <h1 class="mdl-mega-footer--heading">INFO</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:priyanka.herur@gmail.com">priyanka.herur@gmail.com</a></li>
-        <li><a href="/feed.xml">subscribe via RSS</a></li>
+        <li><a href="/SVG-Animation-Samples/feed.xml">subscribe via RSS</a></li>
       </ul>
     </div>
 
@@ -159,18 +170,6 @@
         </li>
       
 	  
-      
-        <li>
-          <a href="https://plus.google.com/communities/108921660472455376353">
-            <span class="icon  icon--googleplus_com">
-              <svg style="width:16px;height:16px" viewBox="0 0 24 24">
-				<path fill="#000000" d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
-			  </svg>
-            </span>
-
-            <span class="username">Google Plus Community</span>
-          </a>
-        </li>
       
 	  
         <li>
@@ -218,7 +217,7 @@
     <!-- Material Design Lite js Library -->
     <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
     
-    <script rel="javascript" type="text/javascript" src="/js/search.js"></script>
+    <script rel="javascript" type="text/javascript" src="/SVG-Animation-Samples/js/search.js"></script>
     <script rel="javascript" type="text/javascript">
       superSearch({
         searchFile: '/feed.xml',
