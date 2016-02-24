@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello Line Drawing"
+title:  "Doing SVG line animations the right way in 5 steps"
 date:  2016-02-16 9:34:20
 categories: 
 author: Priyanka Herur
@@ -9,10 +9,23 @@ image:
     
 ---
 
-Using line animation supported by SVG, animate drawing of the word hello.
+SVG supports animation of paths. Using SVG path capabilities, we can make web richer by doing simple animations such as an animated "Hello" as shown in this example. This article will walk you through the creation and animation of the text "Hello" which can be further used to create your own animation such as this.
 
+![My helpful screenshot]({{ site.baseurl }} ../../../img/posts/hello/hello.gif)
 Check out [SVG animation][animation] for complete code. File all bugs/feature requests at [my GitHub repo][priyanka-gh]. If you have questions, you can leave a comment here.
+
+{% highlight htmlentities %}
+ <animate  dur="1s" id="animatemypath"
+            repeatCount="1" 
+            attributeName="d" 
+            keyTimes="0;.5;1"
+            keySplines=".42,0,.6,1; 0,0,0.3,0.6;"
+            calcMode="spline" 
+            begin="click"
+            values=" ... "
+           />
+{% endhighlight %}
 
 [animation]:   http://priyanka-herur.github.io/SVG-Animation-Samples/line%20drawing-hello/index.html
 [priyanka-gh]:  https://github.com/priyanka-herur/
-
+[variable-width-w3c]:  https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Variable_width_stroke

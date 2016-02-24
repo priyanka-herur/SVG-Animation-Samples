@@ -3,8 +3,8 @@ title: SVG Animations
 email: priyanka.herur@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Exploring the capabilities of SVG/CSS animations. 
-baseurl: "/SVG-Animation-Samples/" # the subpath of your site, e.g. /blog/
-url: "http://priyankaherur.com" # the base hostname & protocol for your site
+baseurl: "/SVG-Animation-Samples" # the subpath of your site, e.g. /blog/
+url: "http://priyanka-herur.github.io" # the base hostname & protocol for your site
 twitter_username: priyankaherur
 github_username:  priyanka-herur
 google_plus_per: '108921660472455376353'  #Personal link

@@ -4,22 +4,33 @@
     <title>SVG Animations</title>
     <description>Exploring the capabilities of SVG/CSS animations. 
 </description>
-    <link>http://priyankaherur.com/</link>
-    <atom:link href="http://priyankaherur.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Feb 2016 19:36:55 +0530</pubDate>
-    <lastBuildDate>Wed, 17 Feb 2016 19:36:55 +0530</lastBuildDate>
+    <link>http://priyanka-herur.github.io/SVG-Animation-Samples/</link>
+    <atom:link href="http://priyanka-herur.github.io/SVG-Animation-Samples/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 24 Feb 2016 12:14:12 +0530</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2016 12:14:12 +0530</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
-        <title>Hello Line Drawing</title>
-        <description>&lt;p&gt;Using line animation supported by SVG, animate drawing of the word hello.&lt;/p&gt;
+        <title>Doing SVG line animations the right way in 5 steps</title>
+        <description>&lt;p&gt;SVG supports animation of paths. Using SVG path capabilities, we can make web richer by doing simple animations such as an animated “Hello” as shown in this example. This article will walk you through the creation and animation of the text “Hello” which can be further used to create your own animation such as this.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/line%20drawing-hello/index.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/SVG-Animation-Samples ../../../img/posts/hello/hello.gif&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+Check out &lt;a href=&quot;http://priyanka-herur.github.io/SVG-Animation-Samples/line%20drawing-hello/index.html&quot;&gt;SVG animation&lt;/a&gt; for complete code. File all bugs/feature requests at &lt;a href=&quot;https://github.com/priyanka-herur/&quot;&gt;my GitHub repo&lt;/a&gt;. If you have questions, you can leave a comment here.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-htmlentities&quot; data-lang=&quot;htmlentities&quot;&gt; &amp;lt;animate  dur=&quot;1s&quot; id=&quot;animatemypath&quot;
+            repeatCount=&quot;1&quot; 
+            attributeName=&quot;d&quot; 
+            keyTimes=&quot;0;.5;1&quot;
+            keySplines=&quot;.42,0,.6,1; 0,0,0.3,0.6;&quot;
+            calcMode=&quot;spline&quot; 
+            begin=&quot;click&quot;
+            values=&quot; ... &quot;
+           /&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
         <pubDate>Tue, 16 Feb 2016 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2016/02/16/svg-hello.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2016/02/16/svg-hello.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/16/svg-hello.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/16/svg-hello.html</guid>
         
         
       </item>
@@ -32,8 +43,8 @@
 
 </description>
         <pubDate>Sun, 14 Feb 2016 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2016/02/14/svg-truck-loading.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2016/02/14/svg-truck-loading.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/14/svg-truck-loading.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/14/svg-truck-loading.html</guid>
         
         
       </item>
@@ -46,8 +57,8 @@
 
 </description>
         <pubDate>Sat, 13 Feb 2016 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2016/02/13/svg-starwars-bb8.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2016/02/13/svg-starwars-bb8.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/13/svg-starwars-bb8.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/13/svg-starwars-bb8.html</guid>
         
         
       </item>
@@ -60,8 +71,8 @@
 
 </description>
         <pubDate>Fri, 12 Feb 2016 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2016/02/12/svg-seabed.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2016/02/12/svg-seabed.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/12/svg-seabed.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2016/02/12/svg-seabed.html</guid>
         
         
       </item>
@@ -84,8 +95,8 @@
 
 </description>
         <pubDate>Tue, 21 Jul 2015 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2015/07/21/svg-wave-menu.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2015/07/21/svg-wave-menu.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2015/07/21/svg-wave-menu.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2015/07/21/svg-wave-menu.html</guid>
         
         
       </item>
@@ -96,8 +107,8 @@
 
 </description>
         <pubDate>Wed, 04 Mar 2015 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2015/03/04/earth-asteroid.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2015/03/04/earth-asteroid.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2015/03/04/earth-asteroid.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2015/03/04/earth-asteroid.html</guid>
         
         
       </item>
@@ -110,8 +121,8 @@
 
 </description>
         <pubDate>Sun, 24 Aug 2014 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2014/08/24/svg-gears.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2014/08/24/svg-gears.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2014/08/24/svg-gears.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2014/08/24/svg-gears.html</guid>
         
         
       </item>
@@ -124,8 +135,8 @@
 
 </description>
         <pubDate>Sat, 23 Aug 2014 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2014/08/23/svg-bike.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2014/08/23/svg-bike.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2014/08/23/svg-bike.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2014/08/23/svg-bike.html</guid>
         
         
       </item>
@@ -138,8 +149,8 @@
 
 </description>
         <pubDate>Tue, 04 Mar 2014 15:04:20 +0530</pubDate>
-        <link>http://priyankaherur.com/2014/03/04/svg-car.html</link>
-        <guid isPermaLink="true">http://priyankaherur.com/2014/03/04/svg-car.html</guid>
+        <link>http://priyanka-herur.github.io/SVG-Animation-Samples/2014/03/04/svg-car.html</link>
+        <guid isPermaLink="true">http://priyanka-herur.github.io/SVG-Animation-Samples/2014/03/04/svg-car.html</guid>
         
         
       </item>
