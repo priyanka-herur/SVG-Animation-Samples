@@ -9,7 +9,24 @@ image:
     
 ---
 
-SVG supports animation of paths. Using SVG path capabilities, we can make web richer by doing simple animations such as an animated "Hello" as shown in this example. This article will walk you through the creation and animation of the text "Hello" which can be further used to create your own animation such as this.
+
+With SVG capabilities, we can make the web richer and create compelling animated headers. Particularly one shown in this article concentrates on the SVG line drawing capabilities. This article will show you how to convert fonts to SVG paths and animate it.
+
+SVG supports drawing of shapes including paths. SVG Paths can have bezier curves and styled using only the stroke property. This helps us in representing Single Line Fonts using SVG Paths. SVG stroke paths can be animated to mimic line drawing. Using these SVG capabilities, we can draw line font and animate it to make it seem like it's drawing itself. 
+
+STEP 1: Choosing fonts
+
+SVG doesn't support variable stroke width on SVG Paths. So, we'll have to choose Monoline Type faces such as Sacremento. To animate single stroke drawing of the word, we'll also include Cursive Type Face. Sacremento is a Monoline Cursive Type Face. Other similar fonts include Grand Hotel, ... and others.
+
+STEP 2: Converting Fonts to SVG Paths
+
+Once we've chosen a font, we'll have to convert it to SVG Path. For this, I'm using Illustrator. With the follow steps, I convert the font to a single line font and then adjust the path points. 
+
+![My helpful screenshot]({{ site.baseurl }} ../../../img/posts/hello/hello.gif)
+
+http://www.illustrationetc.com/AIbuds/GlyphCenterlines.pdf
+
+Check out [SVG animation][animation] for complete code. File all bugs/feature requests at [my GitHub repo][priyanka-gh]. If you have questions, you can leave a comment here.
 
 ![My helpful screenshot]({{ site.baseurl }} ../../../img/posts/hello/hello.gif)
 Check out [SVG animation][animation] for complete code. File all bugs/feature requests at [my GitHub repo][priyanka-gh]. If you have questions, you can leave a comment here.
